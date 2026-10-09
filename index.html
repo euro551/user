@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>สมัครสมาชิก</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="banner" class="banner" role="status">ลงทะเบียนสำเร็จ</div>
+<main>
+<form id="f" class="card" novalidate>
+<h1>สมัครสมาชิก</h1>
+<div class="row">
+<div class="field"><label for="first">ชื่อ</label><input type="text" id="first" autocomplete="given-name"><div class="msg" data-for="first"></div></div>
+<div class="field"><label for="last">นามสกุล</label><input type="text" id="last" autocomplete="family-name"><div class="msg" data-for="last"></div></div>
+</div>
+<div class="field"><label for="email">อีเมล</label><input type="email" id="email" autocomplete="email"><div class="msg" data-for="email"></div></div>
+<div class="field"><label for="phone">เบอร์โทรศัพท์</label><input type="tel" id="phone" inputmode="numeric" maxlength="10" autocomplete="tel"><div class="msg" data-for="phone"></div></div>
+<div class="field"><label for="pw">รหัสผ่าน</label><input type="password" id="pw" autocomplete="new-password"><div class="msg" data-for="pw"></div></div>
+<div class="field"><label for="pw2">ยืนยันรหัสผ่าน</label><input type="password" id="pw2" autocomplete="new-password"><div class="msg" data-for="pw2"></div></div>
+<div class="field"><div class="terms" id="termsBox"><input type="checkbox" id="terms"><label for="terms" style="margin:0">ยอมรับเงื่อนไขการใช้งาน</label></div><div class="msg" data-for="terms"></div></div>
+<button type="submit">สมัครสมาชิก</button>
+</form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
